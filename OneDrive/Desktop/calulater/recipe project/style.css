@@ -1,0 +1,62 @@
+body{
+font-family: sans-serif;
+padding: 0;
+margin: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 20px 50px;
+}
+.navtop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    background-color:gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.searchinput{
+    background-color: transparent;
+    border: none;
+    
+
+}
+.searchinput::placeholder{
+    color: lightgray;
+}
+.limitedoffers{
+    font-size: 20px;
+    border: 2px solid green;
+    cursor: pointer;
+
+}
+.navbottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menuitem{
+    margin-right:50px ;
+    cursor: pointer;
+    font-weight: 100;
+    color: lightgrey;
+}
+.slider img{
+
+
+}
+.sliderwrraper{
+    display: flex;
+    
+}
+.slideritem{
+width: 100vw;
+display: flex;
+align-items: center;
+justify-content: center;
+}

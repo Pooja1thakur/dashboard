@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="photos/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/> -->
+    <link rel="stylesheet" href="styles/github.css">
+    <title>Pooja Portfolio</title>
+    
+</head>
+<body>
+  <header>
+   
+    <!-- <a href="#" class="logo nitishlogo"><img src="photos/logo.png" alt="Nitish-Profile"></a> -->
+    <a href="#" id="logo" class="logo">Pooja Thakur</a>
+
+
+    <ul id="nav-menu" class="navbar">
+      <li><a href="#" class="active nav-link home">Home</a></li>
+      <li><a href="#about" class="nav-link about section">About</a></li>
+      <li><a href="#skills-sec" class="nav-link skills">Skills</a></li>
+      <li><a href="#projects-sec" class="nav-link projects">Projects</a></li>
+      <li><a href="#contact-sec" class="nav-link contact">Contact</a></li>
+      <li>
+        <button onclick="resume()" style="border:none; background-color: white;" id="resume-button-1" >
+          <a  class="menu-btn nav-link resume" id="resume-link-1" style="margin-top:0px" href="documents/Pooja flowcv.pdf" target="_blank" download>
+          Resume </a>
+        </button>
+        <!-- <a download= "" href="documents/Nitish_Mandal_Resume.pdf" onclick="window.open(`https://drive.google.com/file/d/1qfsVp5xwwTiOXQ0CqiirRC3-QNe-jOhk/view`)" target="_blank" class="nav-link resume" id="resume-button-1">Resume</a> -->
+      </li>
+    </ul>
+    <div href="#" class="logo bx bx-menu" id="menu-icon"><span class="material-symbols-outlined">menu</span></div>
+  </header>
+  
+  <div class="main-container">
+  <section id="home" class="margin-t-b main-body">
+    <div></div>
+    <div id="user-detail-name" class="home-text">
+      <p>Hello, I’m</p>
+      <h1>Pooja Thakur</h1>
+      <p class="java">FULL STACK DEVELOPER</p>
+      <div class="home-links">
+        <div class="resume">
+          <!-- <button id="resume-link-2">
+            <a id="resume-button-2" href="documents/Nitish_Mandal_Resume.pdf" target="_blank"
+                download="documents/Nitish_Mandal_Resume.pdf">Download Resume
+                <button> </button>
+            </a>
+          </button> -->
+
+          <button onclick="resume()" style="border: none;" id="resume-button-2" >
+            <a  class="menu-btn nav-link resume" id="resume-link-2" href="documents/photos/Pooja flowcv.pdf" target="_blank" download>
+            Download Resume </a>
+          </button>
+          
+          <!-- <a download= "" href="Nitish_Mandal_Resume.pdf" onclick="window.open(`https://drive.google.com/file/d/1qfsVp5xwwTiOXQ0CqiirRC3-QNe-jOhk/view`)" target="_blank" id="resume-button-2" >Download Resume</a> -->
+        </div>
+        <div class="home-social">
+          <a href="https://github.com/Pooja1thakur" id="contact-github" target="_blank">
+            <img src="https://th.bing.com/th/id/R.c963626c145ea660ba7ceee666789c0a?rik=Ui79F6V0E%2bmFYw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fGithub-PNG-Image.png&ehk=SFNlTltedev2eggRq1KzxVrr35NixG8ITlAbFT%2bVMoY%3d&risl=&pid=ImgRaw&r=0" alt="">
+          </a>
+          <a href="https://instagram.com/rhit___poojathakur?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">
+            <img src="https://th.bing.com/th/id/OIP.6TQKiAdZP-7fykXEJK9H5wAAAA?pid=ImgDet&rs=1" alt="">
+          </a>
+          <a href="https://www.linkedin.com/in/pooja-thakur-273429222/" id="contact-linkedin" target="_blank">
+            <img src="https://th.bing.com/th/id/OIP.w_zDkEJ9aLiWR-g0rff8hwHaHa?pid=ImgDet&rs=1" alt="">
+          </a>
+        </div>
+      
+      </div>
+
+    </div>
+
+  </section>
+
+
+<!-- ========================================================================================
+                                       About Section
+============================================================================================= -->
+
+  <section id="about" class="about section">
+    <div><img src="photos\WhatsApp Image 2023-06-06 at 21.54.29.jpeg" class="home-img" alt="display-picture">
+    </div>
+    <div>
+      <h1>About Me</h1>
+      <!-- <p>Ability to design, develop, & deliver user-centric web applications using Java, HTML, CSS along with javascript to boost customer engagement. Effective remote collaborator with an immense passion for building good tech software, looking forward to a sparkling career as a Java Back-End Developer.</p> -->
+      <p id="user-detail-intro">Highly skilled full stack developer along with having good knowledge of frontend skills such as HTML, CSS, JavaScript,React and backend skills such as NodeJS, Express, MongoDB to develop, design and deliver user-centric web applications to boost engagement. Effective collaborator with an immense passion for building good tech software.</p>
+      <a href="#contact">Contact Me</a>
+    </div>
+  </section>
+
+  <section id="skills-sec">
+  </section>
+  
+<!-- ========================================================================================
+                                       Skills Section
+============================================================================================= -->
+
+  <section id="skills">
+    <h1>Skills</h1>
+    <div class="skills-card">
+      <div class="container grid" id="tech">
+      <div> 
+        <img class="skills-card-img" src="https://letstacle.com/wp-content/uploads/2020/12/java-icon-transpaarent.png" alt="Java"><p class="skills-card-name">Java</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://th.bing.com/th/id/R.f81a6f373c244b1f70f4b7402b5ab372?rik=rbXh4ieLuKt%2bmA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fReact_logo_logotype_emblem.png&ehk=QhGOkKcUKCU7FBQgHOajOiJqJBACUTD2Ni6LsfqzCEA%3d&risl=&pid=ImgRaw&r=0" alt="React"><p class="skills-card-name">React</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://logodix.com/logo/1764907.png" alt="NodeJS"><p class="skills-card-name">NodeJS</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://hackersandslackers-cdn.storage.googleapis.com/2020/05/express.png" alt="express"><p class="skills-card-name">Express</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://pluspng.com/img-png/logo-mongodb-png-mongodb-logo-png-400.png" alt="MongoDB"><p class="skills-card-name">MongoDB</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://th.bing.com/th/id/OIP.eQRqVTzi6ep_wZku3iDmEAHaIZ?pid=ImgDet&rs=1" alt="JavaScript"><p class="skills-card-name">JavaScript</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://www.diegovernan.com.br/images/css-logo.png" alt="CSS"><p class="skills-card-name">CSS</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://th.bing.com/th/id/OIP.bI8KDjd8-nDvzTX_Uok7FwHaHa?pid=ImgDet&rs=1" alt="HTML"><p class="skills-card-name">HTML</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-social-logo.png" alt="BootStrap"><p class="skills-card-name">BootStrap</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://th.bing.com/th/id/R.c963626c145ea660ba7ceee666789c0a?rik=Ui79F6V0E%2bmFYw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fGithub-PNG-Image.png&ehk=SFNlTltedev2eggRq1KzxVrr35NixG8ITlAbFT%2bVMoY%3d&risl=&pid=ImgRaw&r=0" alt="GitHub"><p class="skills-card-name">GitHub</p>
+      </div>
+      <div>
+        <img class="skills-card-img" src="https://th.bing.com/th/id/OIP.bf_9PrsPFz9c0TtDL82y2wHaHa?pid=ImgDet&rs=1" alt="VS_Code"><p class="skills-card-name">VS_Code</p>
+      </div>
+        <!-- <div>
+          <img src="" alt="Eclipse"><p>Eclipse</p>
+        </div> -->
+ 
+        <div>
+          <img class="skills-card-img" src="https://th.bing.com/th/id/OIP.rpiHSO8j5Ng9dzobkcvAkQAAAA?pid=ImgDet&rs=1" alt="mui"><p class="skills-card-name">Material-UI</p>
+        </div>
+        <div>
+          <img class="skills-card-img" src="https://cdn.freebiesupply.com/logos/large/2x/netlify-logo-png-transparent.png" alt="netlify"><p class="skills-card-name">Netlify</p>
+        </div>
+
+      <div>
+        <img class="skills-card-img" src="https://sdtimes.com/wp-content/uploads/2018/08/logo-glyph.png" alt="Postman"><p class="skills-card-name">Postman</p>
+      </div>
+      <!-- <div>
+        <img src="" alt="Apache_Server"><p class="skills-card-name">Apache_Server</p>
+      </div>-->
+      <div> 
+        <img class="skills-card-img" src="https://cdn.freebiesupply.com/logos/large/2x/git-icon-logo-png-transparent.png" alt="Git"><p class="skills-card-name">Git</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+
+<!-- ========================================================================================
+                                       Project Section
+============================================================================================= -->
+
+  <section id="projects-sec">
+  </section>
+  <section id="projects">
+    <h1>Projects</h1>
+    <div class="all-projects">
+      <div class="project-card">
+        <div>
+          <img src="photos/Bookstore new.jpg" alt="">
+        </div>
+        <div>
+          <h1 class="project-title" >Book Store App (MERN)</h1>
+          <p class="project-description">Book-store app is an just store your books . The user can
+view, update and delete his post.</p>
+          <h5  class="project-tech-stack">Tech Stack: HTML | CSS | JavaScript | React | Express | NodeJS | MongoDB </h5>
+          <p>Individual Project</p>
+          <div>
+            <!-- <a href="#"  target="_blank" class="project-deployed-link">Live Demo</a> -->
+            <a href="https://github.com/Pooja1thakur/Bookstore_app.git" target="_blank" class="project-github-link" >GitHub</a>
+            <a href="https://book-client-9xny.onrender.com"  target="_blank" class="project-deployed-video">Live Demo</a>
+          </div>
+        </div>
+     </div>
+      <div class="project-card">
+        <div>
+          <img src="photos/blognew.jpg" alt="">
+        </div>
+        <div>
+          <h1 class="project-title" >Travel Blog App (MERN)</h1>
+          <p class="project-description">Blog-app is an just post your post.the user can login and
+            view, update and delete his post with logout functionality.</p>
+          <h5  class="project-tech-stack" >Tech Stack: HTML | CSS | JavaScript | React | Express | NodeJS | MongoDB </h5>
+          <p>Individual Project</p>
+          <div>
+            <!-- <a href="#"  target="_blank" class="project-deployed-link">Live Demo</a> -->
+            <a href="https://github.com/Pooja1thakur/finalcapstone.git" target="_blank" class="project-github-link" >GitHub</a>
+            <a href="https://drive.google.com/file/d/1lRbGgAePILTfaP7b6qTbztRhQEyR5ZOR/view?usp=drive_link"  target="_blank" class="project-deployed-video">Vedio</a>
+            <a href="https://front-20jt.onrender.com" target="_blank" class="project-deployed-link">Live Demo</a>
+
+          </div>
+        </div>
+     </div>
+     <div class="project-card">
+      <div>
+        <img src="photos/fashion new.jpg" alt="">
+      </div>
+      <div>
+        <h1 class="project-title" >Fashion E-commerce</h1>
+        <p class="project-description">Fashion website is an online site for men ,women and children
+          clothing.</p>
+        <h5  class="project-tech-stack" >Tech Stack: HTML | CSS | JavaScript</h5>
+        <p>Individual Project</p>
+        <div class="add-on-button" style="display: unset;">
+          <a href="https://beautiful-capybara-6d9b7c.netlify.app/" target="_blank" class="project-deployed-link" style="width: 120px;">Live Demo</a>
+          <!-- <a href="https://github.com/nitishmandal01/TIme-Rocket" target="_blank" class="project-github-link"  style="width: 120px;">GitHub</a> -->
+          <a href="https://drive.google.com/file/d/1v7YaVDzva5R1L4ZNnS6ic6WXCEH87UXg/view?usp=drive_link"  target="_blank" class="project-deployed-video" style="width: 120px;">Video</a>
+        </div>
+      </div>
+   </div>
+
+   
+    
+    </div>
+    
+  </section>
+
+
+<!-- ========================================================================================
+                                       Contact Section
+============================================================================================= -->
+
+  <section id="contact-sec">
+  </section>
+  <section id="contact">
+    <h1 id="contact-phone">Contact</h1>
+    <div>
+      <div class="personal-info">
+          <div>
+              <div id="contact-email">
+                  <div class="info-head">
+                      <i class="fa-regular fa-envelope"></i>
+                      <p>Email</p>
+                  </div>
+                  <p>pooja2810rohit@gmail.com</p>
+              </div>
+              <div  >
+                  <div class="info-head">
+                      <i class="fa-solid fa-phone"></i>
+                      <p id="contact-phone" >Phone Number</p>
+                  </div>
+                  <p>+91 7648905851</p>
+              </div>
+              <div>
+                  <div class="info-head">
+                      <i class="fa-brands fa-instagram"></i>
+                      <p>Instagram</p>
+                  </div>
+                  <p>rhit__poojathakur</p>
+              </div>
+              <div>
+                <div class="info-head">
+                  <i class="fa-brands fa-linkedin"></i>
+                    <p>Linkedin</p>
+                </div>
+                <p>linkedin.com/in/pooja-thakur-273429222</p>
+            </div>
+          </div>
+      </div>
+      <div class="send-info">
+
+          <div>
+              <div class="input-box">
+                  <p>Name</p>
+                  <input type="text" />
+              </div>
+              <div class="input-box">
+                  <p>Email</p>
+                  <input type="text" />
+              </div>
+              <div class="input-box">
+                  <p>Projects</p>
+                  <input type="text" />
+              </div>
+              <div class="input-box">
+                  <p>Message</p>
+                  <textarea type="text" rows="5"></textarea>
+              </div>
+              <div class="submit-btn">
+                  <button>Send Message</button>
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+  </section>
+
+</div>
+  <footer>
+    <div class="home-social">
+      <a href="https://github.com/Pooja1thakur" target="_blank">
+        <img src="https://th.bing.com/th/id/R.c963626c145ea660ba7ceee666789c0a?rik=Ui79F6V0E%2bmFYw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f04%2fGithub-PNG-Image.png&ehk=SFNlTltedev2eggRq1KzxVrr35NixG8ITlAbFT%2bVMoY%3d&risl=&pid=ImgRaw&r=0" alt="">
+      </a>
+      <!-- <a href="" target="_blank">
+        <img src="https://th.bing.com/th/id/R.b473fcad595f09b0afe1270d9016ac8c?rik=UkXeB5L2aE8Biw&riu=http%3a%2f%2fpngimg.com%2fuploads%2finstagram%2finstagram_PNG9.png&ehk=GnhAoqBr5eV3LRtLGDB2XElOW7mvkdk29%2byVkqj09y8%3d&risl=&pid=ImgRaw&r=0" alt="">
+      </a> -->
+      <a href="https://www.linkedin.com/in/pooja-thakur-273429222/" target="_blank">
+        <img src="https://th.bing.com/th/id/OIP.w_zDkEJ9aLiWR-g0rff8hwHaHa?pid=ImgDet&rs=1" alt="">
+      </a>
+    </div>
+    <div>© Pooja | 2023</div>
+  </footer>
+
+
+
+</body>
+</html>
+<script src="scripts/script.js"></script>

@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body ,html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+.logo img{
+height: 3rem;
+width: 4rem;
+margin-left: 1rem;
+margin-top: 0.5rem;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 8vh;
+    width: 100%;
+    background-color: blue;
+}
+header nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul li{
+    margin-left: 3rem;
+    align-items: center;
+}
+header ul li a{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: wheat;
+    transition: 0.5s;
+}
+header ul li a:hover{
+    color: #c1b086;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:55rem){
+    html{
+        font-size: 170%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+    }
+    header{
+        width: 300%;
+        height: 20vh;
+        padding-top: 6%;
+        
+        
+        
+    }
+    header ul li a{
+        font-size: 170%;
+    }
+    
+    
+    }
+@media(max-width:30rem){
+html{
+    font-size: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+header ul li a{
+    font-size: 180%;
+}
+
+
+
+
+}
